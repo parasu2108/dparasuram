@@ -1,0 +1,1100 @@
+{
+  "result": [
+    {
+      "description": "",
+      "created_on": "2020-02-10T18:49:04.324662Z",
+      "modified_on": "2020-03-23T14:19:54.329046Z",
+      "id": "25f8fa8d971db9ae94825ffab1d10bbb",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "adfs.bridge2solutions.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "at3-adfs",
+          "address": "63.128.95.140",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:20:43.746515Z",
+      "modified_on": "2023-07-04T04:20:43.746515Z",
+      "id": "614112424354f3d67f878b647a29814c",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "agenttool-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "agenttool-stg-central",
+          "address": "34.120.219.189",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "agenttool-stg-east",
+          "address": "34.36.212.248",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T03:48:47.904027Z",
+      "modified_on": "2023-07-04T03:58:18.941154Z",
+      "id": "9ff37cee1e86aeee1a6606516df4ff26",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "airsvc-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "airsvc-stg-central",
+          "address": "34.160.28.185",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "airsvc-stg-east",
+          "address": "34.36.125.33",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:27:30.959341Z",
+      "modified_on": "2023-07-04T04:27:30.959341Z",
+      "id": "d38ca7964542e8bd7ee7929f38a0d52b",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "als-admin-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "als-admin-stg-central",
+          "address": "34.36.1.9",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "als-admin-stg-east",
+          "address": "34.36.138.29",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:25:23.874923Z",
+      "modified_on": "2023-07-04T04:25:23.874923Z",
+      "id": "96e3c9a7a5929cec0455dd175b84637e",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "als-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "als-stg-central",
+          "address": "34.102.238.169",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "als-stg-east",
+          "address": "34.36.127.53",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "als-xfer-pool",
+      "created_on": "2022-10-28T11:58:15.330737Z",
+      "modified_on": "2023-07-20T04:00:33.526062Z",
+      "id": "d1f24ab432b94bbb0c0637417312f2ba",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "als-xfer-pool",
+      "notification_email": "",
+      "check_regions": [
+        "ALL_REGIONS"
+      ],
+      "origins": [
+        {
+          "name": "als-xfer-dr",
+          "address": "206.27.178.37",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "als-xfer-prd",
+          "address": "63.128.95.171",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "ph2",
+      "created_on": "2020-11-24T18:37:42.523419Z",
+      "modified_on": "2020-11-25T14:51:33.382184Z",
+      "id": "7df4d1477e637fbec760a22633c1c3b8",
+      "enabled": true,
+      "minimum_origins": 1,
+      "monitor": "52b4b39edfedd8214e3e0108148b6f48",
+      "name": "apigee-log-pool",
+      "notification_email": "brett.hanus@bakkt.com",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "healthy": false,
+      "origins": [
+        {
+          "name": "alrf-1",
+          "address": "206.27.178.38",
+          "enabled": true,
+          "weight": 1,
+          "healthy": false,
+          "failure_reason": "TCP timeout occurred"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-08-28T14:13:15.36942Z",
+      "modified_on": "2021-01-05T17:24:01.034167Z",
+      "id": "6998518f12f5a26d8bf7930f0c7c5b4e",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "btcbn-dev",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "btcbn-dev.rewardstepservicesuat.com",
+          "address": "63.128.105.7",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2021-01-05T17:28:02.601237Z",
+      "modified_on": "2021-01-05T17:32:57.340528Z",
+      "id": "9977ce51e18da55723473ba5dadf56ac",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "btcbn-dev-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {
+          "disable": true
+        }
+      },
+      "origins": [
+        {
+          "name": "at3-btcbn-dev",
+          "address": "63.128.105.7",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-03-11T20:13:02.606326Z",
+      "modified_on": "2020-03-11T20:13:02.606326Z",
+      "id": "d49a3bce659e8a8e8618a8842a080b83",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CF-Workers",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "CF-Workers",
+          "address": "1.2.3.4",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-13T14:27:01.885118Z",
+      "modified_on": "2023-07-22T17:03:01.126126Z",
+      "id": "66e01572f4874de301915f3abe7a15cc",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-ADMIN.rewardstep.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-ADMIN.rewardstep.com",
+          "address": "159.127.197.136",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-ADMIN.rewardstep.com",
+          "address": "159.127.94.165",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:24:50.580836Z",
+      "modified_on": "2023-07-22T17:02:59.79628Z",
+      "id": "9f2d6f47dcd4abf0c25d6ff657e85ca9",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGRAPL-ADMIN.applerewardstep.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGRAPL-ADMIN.applerewardstep.com",
+          "address": "159.127.197.231",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGRAPL-ADMIN.applerewardstep.com",
+          "address": "159.127.94.181",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:23:40.584565Z",
+      "modified_on": "2023-07-22T17:03:00.424039Z",
+      "id": "2c2e3e695a371c6fc7cf96457b9a3ce7",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGRAPL-APP.citirewards.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGRAPL-APP.citirewards.com",
+          "address": "159.127.197.232",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGRAPL-APP.citirewards.com",
+          "address": "159.127.94.182",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:26:17.360878Z",
+      "modified_on": "2023-07-22T17:03:00.305717Z",
+      "id": "f92c829e7421bf32e9154f4c071753b8",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGRAPL-CMP.applerewardstep.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGRAPL-CMP.applerewardstep.com",
+          "address": "159.127.197.234",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGRAPL-CMP.applerewardstep.com",
+          "address": "159.127.94.184",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-02-04T18:33:12.644932Z",
+      "modified_on": "2023-07-22T17:03:04.887557Z",
+      "id": "a5e7014b05d1f3e176e0572bb6bbbee9",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGRAPL-XFER",
+      "notification_email": "netops@bridge2solutions.com",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGRAPL-XFER",
+          "address": "159.127.197.238",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGRAPL-XFER",
+          "address": "159.127.94.180",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:13:04.573733Z",
+      "modified_on": "2023-07-22T17:03:01.401356Z",
+      "id": "5688bfaf3673ab38a3e135b6f8157f4a",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-APP.boqrewards.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-APP.boqrewards.com",
+          "address": "159.127.197.141",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-APP.boqrewards.com",
+          "address": "159.127.94.170",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:22:17.413118Z",
+      "modified_on": "2023-07-22T17:03:05.160927Z",
+      "id": "9e95e055533b9cffde008d644794b4a6",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-APP.cardservicesdirectrewards.com.au",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-APP.cardservicesdirectrewards.com.au",
+          "address": "159.127.197.144",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-APP.cardservicesdirectrewards.com.au",
+          "address": "159.127.94.173",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2018-08-14T13:40:57.556949Z",
+      "modified_on": "2023-07-22T17:02:59.879668Z",
+      "id": "23dd9f60e002056f0194e778b26a02b1",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-APP.citirewards.com",
+      "notification_email": "sponder@bridge2solutions.com",
+      "check_regions": [
+        "ENAM"
+      ],
+      "origins": [
+        {
+          "name": "DFW-CGR-APP.citirewards.com",
+          "address": "159.127.197.135",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-APP.citirewards.com",
+          "address": "159.127.94.164",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:20:26.600467Z",
+      "modified_on": "2023-07-22T17:02:59.799017Z",
+      "id": "92cb62bd05c90bc5423db5f33cb0b3c8",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-APP.dinersclubrewards.com.au",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-APP.dinersclubrewards.com.au",
+          "address": "159.127.197.143",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-APP.dinersclubrewards.com.au",
+          "address": "159.127.94.172",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:14:23.044713Z",
+      "modified_on": "2023-07-22T17:03:04.379563Z",
+      "id": "491e13201fca4b17fca160ba725252e0",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-APP.suncorpbankrewards.com.au",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-APP.suncorpbankrewards.com.au",
+          "address": "159.127.197.142",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-APP.suncorpbankrewards.com.au",
+          "address": "159.127.94.171",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-04-16T18:10:11.224433Z",
+      "modified_on": "2023-07-22T17:03:00.65198Z",
+      "id": "f9614a442bfecf4512313cdc43e9c210",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-CMP.rewardstep.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-CMP.rewardstep.com",
+          "address": "159.127.197.140",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-CMP.rewardstep.com",
+          "address": "159.127.94.168",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2019-09-18T16:57:56.792312Z",
+      "modified_on": "2023-07-22T17:03:00.90195Z",
+      "id": "9741a76205ec97babb14834ee73ca2ba",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-Order.rewardstep.com",
+      "notification_email": "netops@bridge2solutions.com",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-ORDER.rewardstep.com",
+          "address": "159.127.197.207",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-ORDER.rewardstep.com",
+          "address": "159.127.94.176",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2019-07-19T16:17:00.285974Z",
+      "modified_on": "2023-07-22T17:03:05.460607Z",
+      "id": "92be74f6127d54caf4e2d7835546f209",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "CGR-xfer.rewardstep.com",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-CGR-XFER.rewardstep.com",
+          "address": "159.127.197.139",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "ELK-CGR-XFER.rewardstep.com",
+          "address": "159.127.94.169",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2021-07-27T21:31:35.453369Z",
+      "modified_on": "2022-11-19T15:07:51.854683Z",
+      "id": "e479e920308db8b339abab0267318161",
+      "enabled": true,
+      "minimum_origins": 1,
+      "monitor": "18cb2a1b1266e61b24b23d3d845427c6",
+      "name": "corp-ccvpn-ph1",
+      "notification_email": "Frank.Schoeniger@bakkt.com,ccinfra@bakkt.com",
+      "check_regions": [
+        "ALL_REGIONS"
+      ],
+      "notification_filter": {
+        "pool": {
+          "healthy": false
+        }
+      },
+      "healthy": true,
+      "origins": [
+        {
+          "name": "ph1-ccvpn",
+          "address": "4.16.136.69",
+          "enabled": true,
+          "weight": 1,
+          "healthy": true,
+          "failure_reason": "No failures"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2021-11-30T18:23:24.661265Z",
+      "modified_on": "2022-11-19T15:09:18.101859Z",
+      "id": "4bcf5fb66520b62d00b2deee18b8bb5c",
+      "enabled": true,
+      "minimum_origins": 1,
+      "monitor": "405063b5ac72d62f217dc6838312efd6",
+      "name": "corp-ccvpn-ph2",
+      "notification_email": "Frank.Schoeniger@bakkt.com,ccinfra@bakkt.com",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {
+          "healthy": false
+        }
+      },
+      "origins": [
+        {
+          "name": "ph2-ccvpn",
+          "address": "206.27.178.3",
+          "enabled": false,
+          "weight": 1,
+          "disabled_at": "2022-11-19T15:09:18.101859Z"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2021-11-30T18:18:26.02994Z",
+      "modified_on": "2023-07-07T12:56:13.097409Z",
+      "id": "3f407df82c055106cf7aa6119c495a86",
+      "enabled": true,
+      "minimum_origins": 1,
+      "monitor": "18cb2a1b1266e61b24b23d3d845427c6",
+      "name": "corp-vpn-ph1",
+      "notification_email": "ccinfra@bakkt.com,SecurityTeam@bakkt.com,Netops@bakkt.com",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {
+          "healthy": false
+        }
+      },
+      "origins": [
+        {
+          "name": "ph1-vpn",
+          "address": "4.16.136.69",
+          "enabled": false,
+          "weight": 1,
+          "disabled_at": "2023-07-07T12:56:13.097409Z"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2021-06-25T18:09:35.384193Z",
+      "modified_on": "2023-07-07T12:55:53.246711Z",
+      "id": "dfbc09a38bfe251c6c5287286e326d69",
+      "enabled": true,
+      "minimum_origins": 1,
+      "monitor": "405063b5ac72d62f217dc6838312efd6",
+      "name": "corp-vpn-ph2",
+      "notification_email": "securityteam@bakkt.com,netops@bakkt.com,ccinfra@bakkt.com",
+      "check_regions": [
+        "ALL_REGIONS"
+      ],
+      "notification_filter": {
+        "pool": {
+          "healthy": false
+        }
+      },
+      "healthy": true,
+      "origins": [
+        {
+          "name": "ph2-vpn",
+          "address": "206.27.178.3",
+          "enabled": true,
+          "weight": 1,
+          "healthy": true,
+          "failure_reason": "No failures"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-08-28T15:55:26.484477Z",
+      "modified_on": "2020-08-28T15:55:26.484477Z",
+      "id": "707634e1b792493812fc1565ba594a22",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "ethbn-dev",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "spectrum-ethbn-dev.rewardstepservicesuat.com",
+          "address": "spectrum-ethbn-dev.rewardstepservicesuat.com",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-03-11T20:11:08.288847Z",
+      "modified_on": "2020-03-11T20:18:50.242584Z",
+      "id": "55c12428f72049721c0924f80947bce2",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "ICE-Pool",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "ICE",
+          "address": "63.247.112.18",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:07:13.386247Z",
+      "modified_on": "2023-07-04T04:07:13.386247Z",
+      "id": "f261815a1b3fecf8a79803ef1e78a6de",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "imageserver-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "imageserver-stg-central",
+          "address": "34.160.28.185",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "imageserver-stg-east",
+          "address": "34.36.125.33",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2021-02-04T08:11:24.989032Z",
+      "modified_on": "2023-07-30T06:29:35.897232Z",
+      "id": "88a01e4beddc3b634f76f743a24a7c4b",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "Keyless-Pool",
+      "notification_email": "netops@bridge2solutions.com",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "Keyless-AT3",
+          "address": "63.128.105.68",
+          "enabled": true,
+          "weight": 1
+        },
+        {
+          "name": "Keylesss-PHX",
+          "address": "206.27.178.125",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:42:31.109171Z",
+      "modified_on": "2023-07-04T04:42:31.109171Z",
+      "id": "1726ade45374c22f348320d9ea330c7b",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "mchsvc-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "mchsvc-stg-central",
+          "address": "34.120.89.38",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "mchsvc-stg-east",
+          "address": "34.117.216.226",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "medcgw",
+      "created_on": "2021-10-13T13:17:43.167365Z",
+      "modified_on": "2021-10-13T13:17:43.167365Z",
+      "id": "67f7917e5cb260f12a5a2dc9f7f6704b",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "medcgw_pool",
+      "notification_email": "securityteam@bakkt.com",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "medcgw_at3",
+          "address": "63.128.105.74",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2020-06-23T17:18:16.009279Z",
+      "modified_on": "2020-06-23T17:18:16.009279Z",
+      "id": "6b912af657f0c8b47e86c2d90044b237",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "merchantservices-api",
+      "notification_email": "",
+      "check_regions": [
+        "ALL_REGIONS"
+      ],
+      "origins": [
+        {
+          "name": "mchsvca1",
+          "address": "63.128.105.4",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:40:46.16888Z",
+      "modified_on": "2023-07-04T04:40:46.16888Z",
+      "id": "a5e9bab53dc9ecbb29916c38e07b0efd",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "order-api-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "order-api-stg-central",
+          "address": "34.120.219.189",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "order-api-stg-east",
+          "address": "34.36.212.248",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:44:20.52541Z",
+      "modified_on": "2023-07-04T04:44:20.52541Z",
+      "id": "7dab53f60a6c6b146c14363abf2c8a30",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "payment-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "payment-stg-central",
+          "address": "34.120.219.189",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "payment-stg-east",
+          "address": "34.36.212.248",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2018-08-15T16:03:21.958915Z",
+      "modified_on": "2018-08-15T16:18:38.622072Z",
+      "id": "2d94afb71fe4c49cf8edebb80a8c1e59",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "rewaut-net",
+      "notification_email": "",
+      "check_regions": null,
+      "origins": [
+        {
+          "name": "DFW-APP",
+          "address": "159.127.197.135",
+          "enabled": true,
+          "weight": 0.9
+        },
+        {
+          "name": "ELK-APP",
+          "address": "159.127.94.164",
+          "enabled": true,
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "description": "sabre rattling",
+      "created_on": "2021-01-18T14:15:44.984722Z",
+      "modified_on": "2021-01-18T16:33:48.867553Z",
+      "id": "6c828eb23dd290e146e70245fd253e62",
+      "enabled": true,
+      "minimum_origins": 1,
+      "monitor": "9e7d4b477e71bd1f4fa94c40c0d3a361",
+      "name": "s1",
+      "notification_email": "brett.hanus@bakkt.com",
+      "check_regions": [
+        "ENAM"
+      ],
+      "notification_filter": {
+        "pool": {}
+      },
+      "healthy": false,
+      "origins": [
+        {
+          "name": "ratl",
+          "address": "bbad1d75-8cdc-42ee-bd99-0aeb400ad49e.cfargotunnel.com",
+          "enabled": true,
+          "weight": 1,
+          "healthy": false,
+          "failure_reason": "TCP timeout occurred"
+        }
+      ]
+    },
+    {
+      "description": "scplbpool1",
+      "created_on": "2022-04-27T02:02:14.176097Z",
+      "modified_on": "2022-04-27T02:06:34.417097Z",
+      "id": "ea52122989a33a8c654b256fa1af664d",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "scplbpool1",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "scplbpool1origin1",
+          "address": "scplbpool1origin1.bakkt.com",
+          "enabled": true,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "description": "scplbpool2",
+      "created_on": "2022-04-27T02:05:38.466461Z",
+      "modified_on": "2022-04-27T02:05:38.466461Z",
+      "id": "57295f64bd6c13ed8b0f6187efe20479",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "scplbpool2",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "scplbpool2origin1",
+          "address": "scplbpool2origin1.bakkt.com",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:23:02.492082Z",
+      "modified_on": "2023-07-04T04:23:02.492082Z",
+      "id": "0103c24d0330d05da134ce4367b6ff8e",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "sc-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "sc-stg-central",
+          "address": "34.160.27.7",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "sc-stg-east",
+          "address": "35.190.116.240",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-07-04T04:10:42.733122Z",
+      "modified_on": "2023-07-04T04:10:42.733122Z",
+      "id": "2ca765f4244a72cce675c5468789dc46",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "varadmin-stg-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "varadmin-stg-central",
+          "address": "34.36.119.199",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "varadmin-stg-east",
+          "address": "35.190.56.169",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "description": "",
+      "created_on": "2023-02-02T06:17:25.22374Z",
+      "modified_on": "2023-02-02T06:17:25.22374Z",
+      "id": "117ed079a0c9d8103dab9a74de059489",
+      "enabled": true,
+      "minimum_origins": 1,
+      "name": "xfer-pool",
+      "notification_email": "",
+      "check_regions": null,
+      "notification_filter": {
+        "pool": {}
+      },
+      "origins": [
+        {
+          "name": "xfer-dr",
+          "address": "206.27.178.65",
+          "enabled": true,
+          "weight": 0
+        },
+        {
+          "name": "xfer-prod",
+          "address": "63.128.105.65",
+          "enabled": true,
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "success": true,
+  "errors": [],
+  "messages": []
+}
